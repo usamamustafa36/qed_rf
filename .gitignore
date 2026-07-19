@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+# LaTeX build junk (main.pdf itself stays tracked)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.synctex.gz
+# retrained per-seed weights are large and reproducible from `qed-rf run`;
+# the small per-seed raw numbers (artifacts/runs_*.json) stay tracked.
+artifacts/models/
+# local-only reviewer critique; not for the public repo
+QED_RF_6G_Beam_Prediction_Final_Review.md

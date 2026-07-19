@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qed-rf"
+version = "0.2.0"
+description = "Autonomous adaptive-robustness audit of AI-native beam prediction (malicious-RIS threat model, 6G)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Usama Mustafa" }, { name = "Sana Mustafa" }, { name = "Imran Rashid" }]
+keywords = ["6g", "beam-prediction", "adversarial-robustness", "RIS", "robustness-audit"]
+dependencies = ["torch>=2.1", "numpy>=1.24", "scipy>=1.10", "scikit-learn>=1.3", "matplotlib>=3.7"]
+
+[project.scripts]
+qed-rf = "qedrf.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qedrf*"]

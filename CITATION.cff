@@ -1,0 +1,36 @@
+cff-version: 1.2.0
+message: "If you use this software or its audit methodology, please cite it as below."
+type: software
+title: "QED-RF: Autonomous Adaptive-Robustness Audit of AI-Native Beam Prediction"
+version: 0.2.0
+date-released: 2026-07-14
+license: MIT
+repository-code: "https://github.com/usamamustafa36/qed_rf"
+authors:
+  - family-names: Mustafa
+    given-names: Sana
+    affiliation: "Institute of Space Technology, Pakistan"
+  - family-names: Mustafa
+    given-names: Usama
+    affiliation: "Military College of Signals, National University of Sciences and Technology (NUST), Pakistan"
+  - family-names: Iqbal
+    given-names: Javed
+keywords:
+  - 6G
+  - beam prediction
+  - adversarial robustness
+  - reconfigurable intelligent surface
+  - robustness audit
+preferred-citation:
+  type: conference-paper
+  title: "Adaptive Robustness Auditing of RIS Defenses for AI-Native Beam Prediction: Do Reported Numbers Survive Stronger Attacks?"
+  year: 2026
+  collection-title: "International Conference on Emerging Technologies (ICET)"
+  authors:
+    - family-names: Mustafa
+      given-names: Sana
+    - family-names: Mustafa
+      given-names: Usama
+    - family-names: Iqbal
+      given-names: Javed
+  notes: "Submitted; not yet accepted."
